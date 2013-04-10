@@ -12,10 +12,7 @@ Directory
 =========
 
 Each service has a folder along with a number of json files. Each file is 
-named according to what it represents, so for example, there is a 
-
-    search_for_starwars.json
-
+named according to what it represents, so for example, there is a  search_``for``_starwars.json
 file in the Twitter folder. This is a result set from performing a Twitter
 search. (Duh.)
 
