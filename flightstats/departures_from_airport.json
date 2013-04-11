@@ -1,0 +1,654 @@
+{
+ "request": {
+  "airport": {
+   "requestedCode": "CVG",
+   "fsCode": "CVG"
+  },
+  "date": {
+   "year": "2013",
+   "month": "4",
+   "day": "11",
+   "interpreted": "2013-04-11"
+  },
+  "hourOfDay": {
+   "requested": "15",
+   "interpreted": 15
+  },
+  "numHours": {
+   "requested": "6",
+   "interpreted": 6
+  },
+  "utc": {
+   "requested": "false",
+   "interpreted": false
+  },
+  "codeType": {},
+  "maxFlights": {
+   "requested": "5",
+   "interpreted": 5
+  },
+  "extendedOptions": {},
+  "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/status/CVG/dep/2013/04/11/15"
+ },
+ "appendix": {
+  "airlines": [
+   {
+    "fs": "KL",
+    "iata": "KL",
+    "icao": "KLM",
+    "name": "KLM",
+    "active": true
+   },
+   {
+    "fs": "EV",
+    "iata": "EV",
+    "icao": "ASQ",
+    "name": "ExpressJet",
+    "active": true
+   },
+   {
+    "fs": "9E",
+    "iata": "9E",
+    "icao": "FLG",
+    "name": "Pinnacle Airlines",
+    "active": true
+   },
+   {
+    "fs": "DL",
+    "iata": "DL",
+    "icao": "DAL",
+    "name": "Delta Air Lines",
+    "phoneNumber": "1-800-221-1212",
+    "active": true
+   },
+   {
+    "fs": "AF",
+    "iata": "AF",
+    "icao": "AFR",
+    "name": "Air France",
+    "phoneNumber": "1-800-237-2747",
+    "active": true
+   }
+  ],
+  "airports": [
+   {
+    "fs": "CVG",
+    "iata": "CVG",
+    "icao": "KCVG",
+    "faa": "CVG",
+    "name": "Cincinnati/Northern Kentucky Airport",
+    "city": "Cincinnati",
+    "cityCode": "CVG",
+    "stateCode": "OH",
+    "postalCode": "41048",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "OHZ077",
+    "localTime": "2013-04-11T15:51:32.525",
+    "utcOffsetHours": -4,
+    "latitude": 39.0555,
+    "longitude": -84.66145,
+    "elevationFeet": 897,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CVG?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CVG?codeType=fs"
+   },
+   {
+    "fs": "LHR",
+    "iata": "LHR",
+    "icao": "EGLL",
+    "name": "London Heathrow Airport",
+    "city": "London",
+    "cityCode": "LON",
+    "stateCode": "EN",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/London",
+    "localTime": "2013-04-11T20:51:32.542",
+    "utcOffsetHours": 1,
+    "latitude": 51.469603,
+    "longitude": -0.453566,
+    "elevationFeet": 80,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LHR?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LHR?codeType=fs"
+   },
+   {
+    "fs": "ATL",
+    "iata": "ATL",
+    "icao": "KATL",
+    "faa": "ATL",
+    "name": "Hartsfield-Jackson Atlanta International Airport",
+    "street1": "6000 N Terminal Parkway",
+    "street2": "",
+    "city": "Atlanta",
+    "cityCode": "ATL",
+    "stateCode": "GA",
+    "postalCode": "30320",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "GAZ044",
+    "localTime": "2013-04-11T15:51:32.541",
+    "utcOffsetHours": -4,
+    "latitude": 33.640067,
+    "longitude": -84.44403,
+    "elevationFeet": 1026,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ATL?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ATL?codeType=fs"
+   },
+   {
+    "fs": "BOS",
+    "iata": "BOS",
+    "icao": "KBOS",
+    "faa": "BOS",
+    "name": "Logan International Airport",
+    "street1": "One Harborside Drive",
+    "street2": "",
+    "city": "Boston",
+    "cityCode": "BOS",
+    "stateCode": "MA",
+    "postalCode": "02128-2909",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "MAZ015",
+    "localTime": "2013-04-11T15:51:32.543",
+    "utcOffsetHours": -4,
+    "latitude": 42.36646,
+    "longitude": -71.020176,
+    "elevationFeet": 19,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BOS?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BOS?codeType=fs"
+   },
+   {
+    "fs": "BNA",
+    "iata": "BNA",
+    "icao": "KBNA",
+    "faa": "BNA",
+    "name": "Nashville International Airport",
+    "street1": "One Terminal Drive, Suite 501",
+    "city": "Nashville",
+    "cityCode": "BNA",
+    "stateCode": "TN",
+    "postalCode": "37214-4114",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Chicago",
+    "weatherZone": "TNZ027",
+    "localTime": "2013-04-11T14:51:32.543",
+    "utcOffsetHours": -5,
+    "latitude": 36.13174,
+    "longitude": -86.668945,
+    "elevationFeet": 599,
+    "classification": 2,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BNA?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BNA?codeType=fs"
+   },
+   {
+    "fs": "BDL",
+    "iata": "BDL",
+    "icao": "KBDL",
+    "faa": "BDL",
+    "name": "Bradley International Airport",
+    "street1": "Schoephoester Road",
+    "street2": "",
+    "city": "Hartford",
+    "cityCode": "HFD",
+    "stateCode": "CT",
+    "postalCode": "06096",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "CTZ002",
+    "localTime": "2013-04-11T15:51:32.542",
+    "utcOffsetHours": -4,
+    "latitude": 41.92953,
+    "longitude": -72.684701,
+    "elevationFeet": 173,
+    "classification": 2,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/BDL?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/BDL?codeType=fs"
+   }
+  ],
+  "equipments": [
+   {
+    "iata": "M88",
+    "name": "Boeing (Douglas) MD-88",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "CRJ",
+    "name": "Canadair (Bombardier) Regional Jet",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": true
+   }
+  ]
+ },
+ "flightStatuses": [
+  {
+   "flightId": 293630819,
+   "carrierFsCode": "DL",
+   "flightNumber": "1881",
+   "departureAirportFsCode": "CVG",
+   "arrivalAirportFsCode": "ATL",
+   "departureDate": {
+    "dateLocal": "2013-04-11T16:25:00.000",
+    "dateUtc": "2013-04-11T20:25:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T17:55:00.000",
+    "dateUtc": "2013-04-11T21:55:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T16:25:00.000",
+     "dateUtc": "2013-04-11T20:25:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T17:55:00.000",
+     "dateUtc": "2013-04-11T21:55:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T16:25:00.000",
+     "dateUtc": "2013-04-11T20:25:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T16:31:00.000",
+     "dateUtc": "2013-04-11T20:31:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T16:30:00.000",
+     "dateUtc": "2013-04-11T20:30:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T17:55:00.000",
+     "dateUtc": "2013-04-11T21:55:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T17:34:00.000",
+     "dateUtc": "2013-04-11T21:34:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T17:28:00.000",
+     "dateUtc": "2013-04-11T21:28:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "KL",
+     "flightNumber": "7347",
+     "relationship": "L"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 90,
+    "scheduledAirMinutes": 63,
+    "scheduledTaxiOutMinutes": 6,
+    "scheduledTaxiInMinutes": 21
+   },
+   "airportResources": {
+    "departureTerminal": "3",
+    "departureGate": "B8",
+    "arrivalTerminal": "N",
+    "arrivalGate": "B28"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "M88"
+   }
+  },
+  {
+   "flightId": 293630818,
+   "carrierFsCode": "DL",
+   "flightNumber": "10",
+   "departureAirportFsCode": "CVG",
+   "arrivalAirportFsCode": "ATL",
+   "departureDate": {
+    "dateLocal": "2013-04-11T19:15:00.000",
+    "dateUtc": "2013-04-11T23:15:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T20:50:00.000",
+    "dateUtc": "2013-04-12T00:50:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": "",
+    "downlines": [
+     {
+      "fsCode": "LHR",
+      "flightId": 293614635
+     }
+    ]
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T19:15:00.000",
+     "dateUtc": "2013-04-11T23:15:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T20:50:00.000",
+     "dateUtc": "2013-04-12T00:50:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T19:15:00.000",
+     "dateUtc": "2013-04-11T23:15:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T19:20:00.000",
+     "dateUtc": "2013-04-11T23:20:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T19:20:00.000",
+     "dateUtc": "2013-04-11T23:20:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T20:50:00.000",
+     "dateUtc": "2013-04-12T00:50:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T20:23:00.000",
+     "dateUtc": "2013-04-12T00:23:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T20:23:00.000",
+     "dateUtc": "2013-04-12T00:23:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "KL",
+     "flightNumber": "5121",
+     "relationship": "L"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 95,
+    "scheduledAirMinutes": 63,
+    "scheduledTaxiOutMinutes": 5,
+    "scheduledTaxiInMinutes": 27
+   },
+   "airportResources": {
+    "departureTerminal": "3",
+    "departureGate": "B1",
+    "arrivalTerminal": "S",
+    "arrivalGate": "B5"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "M88"
+   }
+  },
+  {
+   "flightId": 293630823,
+   "carrierFsCode": "EV",
+   "flightNumber": "5556",
+   "departureAirportFsCode": "CVG",
+   "arrivalAirportFsCode": "BDL",
+   "departureDate": {
+    "dateLocal": "2013-04-11T19:59:00.000",
+    "dateUtc": "2013-04-11T23:59:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T21:51:00.000",
+    "dateUtc": "2013-04-12T01:51:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "Y",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T19:59:00.000",
+     "dateUtc": "2013-04-11T23:59:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T21:51:00.000",
+     "dateUtc": "2013-04-12T01:51:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T19:59:00.000",
+     "dateUtc": "2013-04-11T23:59:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T20:09:00.000",
+     "dateUtc": "2013-04-12T00:09:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T20:09:00.000",
+     "dateUtc": "2013-04-12T00:09:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T21:51:00.000",
+     "dateUtc": "2013-04-12T01:51:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T22:04:00.000",
+     "dateUtc": "2013-04-12T02:04:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T22:04:00.000",
+     "dateUtc": "2013-04-12T02:04:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "DL",
+     "flightNumber": "5556",
+     "relationship": "X"
+    },
+    {
+     "fsCode": "AF",
+     "flightNumber": "2748",
+     "relationship": "Z"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 112,
+    "scheduledAirMinutes": 115,
+    "scheduledTaxiOutMinutes": 10
+   },
+   "airportResources": {
+    "departureTerminal": "3",
+    "departureGate": "B28",
+    "arrivalTerminal": "A",
+    "arrivalGate": "10"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "CRJ"
+   }
+  },
+  {
+   "flightId": 293630826,
+   "carrierFsCode": "9E",
+   "flightNumber": "4097",
+   "departureAirportFsCode": "CVG",
+   "arrivalAirportFsCode": "BNA",
+   "departureDate": {
+    "dateLocal": "2013-04-11T16:36:00.000",
+    "dateUtc": "2013-04-11T20:36:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T16:42:00.000",
+    "dateUtc": "2013-04-11T21:42:00.000Z"
+   },
+   "status": "C",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "Y",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T16:36:00.000",
+     "dateUtc": "2013-04-11T20:36:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T16:42:00.000",
+     "dateUtc": "2013-04-11T21:42:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T16:36:00.000",
+     "dateUtc": "2013-04-11T20:36:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T16:47:00.000",
+     "dateUtc": "2013-04-11T20:47:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T16:47:00.000",
+     "dateUtc": "2013-04-11T20:47:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T16:42:00.000",
+     "dateUtc": "2013-04-11T21:42:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T16:28:00.000",
+     "dateUtc": "2013-04-11T21:28:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T16:28:00.000",
+     "dateUtc": "2013-04-11T21:28:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "DL",
+     "flightNumber": "4097",
+     "relationship": "X"
+    },
+    {
+     "fsCode": "AF",
+     "flightNumber": "8932",
+     "relationship": "Z"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 66,
+    "scheduledAirMinutes": 41,
+    "scheduledTaxiOutMinutes": 11,
+    "scheduledTaxiInMinutes": 14
+   },
+   "airportResources": {
+    "departureTerminal": "3",
+    "departureGate": "B24",
+    "arrivalGate": "B7"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "CRJ"
+   }
+  },
+  {
+   "flightId": 293630830,
+   "carrierFsCode": "DL",
+   "flightNumber": "898",
+   "departureAirportFsCode": "CVG",
+   "arrivalAirportFsCode": "BOS",
+   "departureDate": {
+    "dateLocal": "2013-04-11T15:55:00.000",
+    "dateUtc": "2013-04-11T19:55:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T18:00:00.000",
+    "dateUtc": "2013-04-11T22:00:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T15:55:00.000",
+     "dateUtc": "2013-04-11T19:55:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T18:00:00.000",
+     "dateUtc": "2013-04-11T22:00:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T15:55:00.000",
+     "dateUtc": "2013-04-11T19:55:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2013-04-11T16:45:00.000",
+     "dateUtc": "2013-04-11T20:45:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T15:57:00.000",
+     "dateUtc": "2013-04-11T19:57:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T15:57:00.000",
+     "dateUtc": "2013-04-11T19:57:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T18:00:00.000",
+     "dateUtc": "2013-04-11T22:00:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2013-04-11T18:32:00.000",
+     "dateUtc": "2013-04-11T22:32:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T17:40:00.000",
+     "dateUtc": "2013-04-11T21:40:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T17:35:00.000",
+     "dateUtc": "2013-04-11T21:35:00.000Z"
+    }
+   },
+   "delays": {
+    "departureGateDelayMinutes": 50,
+    "arrivalGateDelayMinutes": 32
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 125,
+    "scheduledAirMinutes": 103,
+    "scheduledTaxiOutMinutes": 2,
+    "scheduledTaxiInMinutes": 20
+   },
+   "airportResources": {
+    "departureTerminal": "3",
+    "departureGate": "B10",
+    "arrivalTerminal": "A",
+    "arrivalGate": "A20"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "M88"
+   }
+  }
+ ]
+}
