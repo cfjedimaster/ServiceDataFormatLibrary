@@ -1,0 +1,851 @@
+{
+ "request": {
+  "airport": {
+   "requestedCode": "CVG",
+   "fsCode": "CVG"
+  },
+  "date": {
+   "year": "2013",
+   "month": "4",
+   "day": "11",
+   "interpreted": "2013-04-11"
+  },
+  "hourOfDay": {
+   "requested": "15",
+   "interpreted": 15
+  },
+  "numHours": {
+   "requested": "6",
+   "interpreted": 6
+  },
+  "utc": {
+   "requested": "false",
+   "interpreted": false
+  },
+  "codeType": {},
+  "maxFlights": {
+   "requested": "5",
+   "interpreted": 5
+  },
+  "extendedOptions": {},
+  "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/status/CVG/arr/2013/04/11/15"
+ },
+ "appendix": {
+  "airlines": [
+   {
+    "fs": "CZ",
+    "iata": "CZ",
+    "icao": "CSN",
+    "name": "China Southern",
+    "active": true
+   },
+   {
+    "fs": "AS",
+    "iata": "AS",
+    "icao": "ASA",
+    "name": "Alaska Airlines",
+    "phoneNumber": "1-800-252-7522",
+    "active": true
+   },
+   {
+    "fs": "EV",
+    "iata": "EV",
+    "icao": "ASQ",
+    "name": "ExpressJet",
+    "active": true
+   },
+   {
+    "fs": "9E",
+    "iata": "9E",
+    "icao": "FLG",
+    "name": "Pinnacle Airlines",
+    "active": true
+   },
+   {
+    "fs": "DL",
+    "iata": "DL",
+    "icao": "DAL",
+    "name": "Delta Air Lines",
+    "phoneNumber": "1-800-221-1212",
+    "active": true
+   },
+   {
+    "fs": "VA",
+    "iata": "VA",
+    "icao": "VAU",
+    "name": "Virgin Australia Intl",
+    "active": true
+   },
+   {
+    "fs": "AF",
+    "iata": "AF",
+    "icao": "AFR",
+    "name": "Air France",
+    "phoneNumber": "1-800-237-2747",
+    "active": true
+   },
+   {
+    "fs": "KE",
+    "iata": "KE",
+    "icao": "KAL",
+    "name": "Korean Air",
+    "active": true
+   }
+  ],
+  "airports": [
+   {
+    "fs": "LAX",
+    "iata": "LAX",
+    "icao": "KLAX",
+    "faa": "LAX",
+    "name": "Los Angeles International Airport",
+    "street1": "One World Way",
+    "street2": "",
+    "city": "Los Angeles",
+    "cityCode": "LAX",
+    "stateCode": "CA",
+    "postalCode": "90045-5803",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "CAZ041",
+    "localTime": "2013-04-11T12:50:30.013",
+    "utcOffsetHours": -7,
+    "latitude": 33.943399,
+    "longitude": -118.408279,
+    "elevationFeet": 126,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LAX?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LAX?codeType=fs"
+   },
+   {
+    "fs": "CVG",
+    "iata": "CVG",
+    "icao": "KCVG",
+    "faa": "CVG",
+    "name": "Cincinnati/Northern Kentucky Airport",
+    "city": "Cincinnati",
+    "cityCode": "CVG",
+    "stateCode": "OH",
+    "postalCode": "41048",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/New_York",
+    "weatherZone": "OHZ077",
+    "localTime": "2013-04-11T15:50:16.868",
+    "utcOffsetHours": -4,
+    "latitude": 39.0555,
+    "longitude": -84.66145,
+    "elevationFeet": 897,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CVG?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CVG?codeType=fs"
+   },
+   {
+    "fs": "DEN",
+    "iata": "DEN",
+    "icao": "KDEN",
+    "faa": "DEN",
+    "name": "Denver International Airport",
+    "street1": "8500 Pena Boulevard",
+    "street2": "",
+    "city": "Denver",
+    "cityCode": "DEN",
+    "stateCode": "CO",
+    "postalCode": "80249-6340",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Denver",
+    "weatherZone": "COZ040",
+    "localTime": "2013-04-11T13:50:30.017",
+    "utcOffsetHours": -6,
+    "latitude": 39.84939,
+    "longitude": -104.672844,
+    "elevationFeet": 5431,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DEN?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DEN?codeType=fs"
+   },
+   {
+    "fs": "SLC",
+    "iata": "SLC",
+    "icao": "KSLC",
+    "faa": "SLC",
+    "name": "Salt Lake City International Airport",
+    "street1": "776 North Terminal Drive",
+    "street2": "",
+    "city": "Salt Lake City",
+    "cityCode": "SLC",
+    "stateCode": "UT",
+    "postalCode": "84116",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Denver",
+    "weatherZone": "UTZ003",
+    "localTime": "2013-04-11T13:50:30.015",
+    "utcOffsetHours": -6,
+    "latitude": 40.785645,
+    "longitude": -111.980673,
+    "elevationFeet": 4227,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SLC?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SLC?codeType=fs"
+   },
+   {
+    "fs": "DFW",
+    "iata": "DFW",
+    "icao": "KDFW",
+    "faa": "DFW",
+    "name": "Dallas/Fort Worth International Airport",
+    "street1": "3200 East Airfield Drive",
+    "city": "Dallas",
+    "cityCode": "DFW",
+    "stateCode": "TX",
+    "postalCode": "75261",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Chicago",
+    "weatherZone": "TXZ119",
+    "localTime": "2013-04-11T14:50:30.020",
+    "utcOffsetHours": -5,
+    "latitude": 32.897462,
+    "longitude": -97.036128,
+    "elevationFeet": 603,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DFW?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DFW?codeType=fs"
+   }
+  ],
+  "equipments": [
+   {
+    "iata": "CRJ7",
+    "name": "??",
+    "turboProp": false,
+    "jet": false,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "CRJ9",
+    "name": "??",
+    "turboProp": false,
+    "jet": false,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "73H",
+    "name": "Boeing 737-800 (winglets) Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "CR7",
+    "name": "Canadair (Bombardier) Regional Jet 700 and Challenger 870",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": true
+   },
+   {
+    "iata": "CR9",
+    "name": "Canadair (Bombardier) Regional Jet 900 and Challenger 890",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": true
+   },
+   {
+    "iata": "320",
+    "name": "Airbus Industrie A320",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "B738",
+    "name": "??",
+    "turboProp": false,
+    "jet": false,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "738",
+    "name": "Boeing 737-800 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "A320",
+    "name": "??",
+    "turboProp": false,
+    "jet": false,
+    "widebody": false,
+    "regional": false
+   }
+  ]
+ },
+ "flightStatuses": [
+  {
+   "flightId": 293657095,
+   "carrierFsCode": "DL",
+   "flightNumber": "1760",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "CVG",
+   "departureDate": {
+    "dateLocal": "2013-04-11T08:15:00.000",
+    "dateUtc": "2013-04-11T15:15:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T15:28:00.000",
+    "dateUtc": "2013-04-11T19:28:00.000Z"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T08:15:00.000",
+     "dateUtc": "2013-04-11T15:15:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T15:28:00.000",
+     "dateUtc": "2013-04-11T19:28:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T08:15:00.000",
+     "dateUtc": "2013-04-11T15:15:00.000Z"
+    },
+    "actualGateDeparture": {
+     "dateLocal": "2013-04-11T08:14:00.000",
+     "dateUtc": "2013-04-11T15:14:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T08:26:00.000",
+     "dateUtc": "2013-04-11T15:26:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T08:30:00.000",
+     "dateUtc": "2013-04-11T15:30:00.000Z"
+    },
+    "actualRunwayDeparture": {
+     "dateLocal": "2013-04-11T08:29:00.000",
+     "dateUtc": "2013-04-11T15:29:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T15:28:00.000",
+     "dateUtc": "2013-04-11T19:28:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2013-04-11T15:03:00.000",
+     "dateUtc": "2013-04-11T19:03:00.000Z"
+    },
+    "actualGateArrival": {
+     "dateLocal": "2013-04-11T15:07:00.000",
+     "dateUtc": "2013-04-11T19:07:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T15:10:00.000",
+     "dateUtc": "2013-04-11T19:10:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T15:06:00.000",
+     "dateUtc": "2013-04-11T19:06:00.000Z"
+    },
+    "actualRunwayArrival": {
+     "dateLocal": "2013-04-11T15:04:00.000",
+     "dateUtc": "2013-04-11T19:04:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "KE",
+     "flightNumber": "7051",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AS",
+     "flightNumber": "5219",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "VA",
+     "flightNumber": "6710",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AF",
+     "flightNumber": "9159",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 3
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 253,
+    "blockMinutes": 233,
+    "scheduledAirMinutes": 224,
+    "airMinutes": 215,
+    "scheduledTaxiOutMinutes": 11,
+    "taxiOutMinutes": 15,
+    "scheduledTaxiInMinutes": 18,
+    "taxiInMinutes": 3
+   },
+   "airportResources": {
+    "departureTerminal": "6",
+    "departureGate": "69B",
+    "arrivalTerminal": "3",
+    "arrivalGate": "B6"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "73H",
+    "actualEquipmentIataCode": "B738"
+   }
+  },
+  {
+   "flightId": 293687041,
+   "carrierFsCode": "DL",
+   "flightNumber": "500",
+   "departureAirportFsCode": "SLC",
+   "arrivalAirportFsCode": "CVG",
+   "departureDate": {
+    "dateLocal": "2013-04-11T09:53:00.000",
+    "dateUtc": "2013-04-11T15:53:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T15:19:00.000",
+    "dateUtc": "2013-04-11T19:19:00.000Z"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T09:53:00.000",
+     "dateUtc": "2013-04-11T15:53:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T15:19:00.000",
+     "dateUtc": "2013-04-11T19:19:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T09:53:00.000",
+     "dateUtc": "2013-04-11T15:53:00.000Z"
+    },
+    "actualGateDeparture": {
+     "dateLocal": "2013-04-11T09:52:00.000",
+     "dateUtc": "2013-04-11T15:52:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T10:04:00.000",
+     "dateUtc": "2013-04-11T16:04:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T10:11:00.000",
+     "dateUtc": "2013-04-11T16:11:00.000Z"
+    },
+    "actualRunwayDeparture": {
+     "dateLocal": "2013-04-11T10:11:00.000",
+     "dateUtc": "2013-04-11T16:11:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T15:19:00.000",
+     "dateUtc": "2013-04-11T19:19:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2013-04-11T15:10:00.000",
+     "dateUtc": "2013-04-11T19:10:00.000Z"
+    },
+    "actualGateArrival": {
+     "dateLocal": "2013-04-11T15:20:00.000",
+     "dateUtc": "2013-04-11T19:20:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T15:10:00.000",
+     "dateUtc": "2013-04-11T19:10:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T15:17:00.000",
+     "dateUtc": "2013-04-11T19:17:00.000Z"
+    },
+    "actualRunwayArrival": {
+     "dateLocal": "2013-04-11T15:14:00.000",
+     "dateUtc": "2013-04-11T19:14:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "AS",
+     "flightNumber": "5790",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 7,
+    "arrivalGateDelayMinutes": 1,
+    "arrivalRunwayDelayMinutes": 4
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 206,
+    "blockMinutes": 208,
+    "scheduledAirMinutes": 186,
+    "airMinutes": 183,
+    "scheduledTaxiOutMinutes": 11,
+    "taxiOutMinutes": 19,
+    "scheduledTaxiInMinutes": 9,
+    "taxiInMinutes": 6
+   },
+   "airportResources": {
+    "departureTerminal": "I",
+    "departureGate": "D5",
+    "arrivalTerminal": "3",
+    "arrivalGate": "B1"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "320",
+    "actualEquipmentIataCode": "A320"
+   }
+  },
+  {
+   "flightId": 293632715,
+   "carrierFsCode": "9E",
+   "flightNumber": "3431",
+   "departureAirportFsCode": "DEN",
+   "arrivalAirportFsCode": "CVG",
+   "departureDate": {
+    "dateLocal": "2013-04-11T10:50:00.000",
+    "dateUtc": "2013-04-11T16:50:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T15:23:00.000",
+    "dateUtc": "2013-04-11T19:23:00.000Z"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T10:50:00.000",
+     "dateUtc": "2013-04-11T16:50:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T15:23:00.000",
+     "dateUtc": "2013-04-11T19:23:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T10:50:00.000",
+     "dateUtc": "2013-04-11T16:50:00.000Z"
+    },
+    "actualGateDeparture": {
+     "dateLocal": "2013-04-11T11:04:00.000",
+     "dateUtc": "2013-04-11T17:04:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T11:00:00.000",
+     "dateUtc": "2013-04-11T17:00:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T11:19:00.000",
+     "dateUtc": "2013-04-11T17:19:00.000Z"
+    },
+    "actualRunwayDeparture": {
+     "dateLocal": "2013-04-11T11:18:00.000",
+     "dateUtc": "2013-04-11T17:18:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T15:23:00.000",
+     "dateUtc": "2013-04-11T19:23:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2013-04-11T15:42:00.000",
+     "dateUtc": "2013-04-11T19:42:00.000Z"
+    },
+    "actualGateArrival": {
+     "dateLocal": "2013-04-11T15:41:00.000",
+     "dateUtc": "2013-04-11T19:41:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T15:22:00.000",
+     "dateUtc": "2013-04-11T19:22:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T15:40:00.000",
+     "dateUtc": "2013-04-11T19:40:00.000Z"
+    },
+    "actualRunwayArrival": {
+     "dateLocal": "2013-04-11T15:38:00.000",
+     "dateUtc": "2013-04-11T19:38:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "DL",
+     "flightNumber": "3431",
+     "relationship": "X"
+    }
+   ],
+   "delays": {
+    "departureGateDelayMinutes": 14,
+    "departureRunwayDelayMinutes": 18,
+    "arrivalGateDelayMinutes": 18,
+    "arrivalRunwayDelayMinutes": 16
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 153,
+    "blockMinutes": 157,
+    "scheduledAirMinutes": 142,
+    "airMinutes": 140,
+    "scheduledTaxiOutMinutes": 10,
+    "taxiOutMinutes": 14,
+    "scheduledTaxiInMinutes": 1,
+    "taxiInMinutes": 3
+   },
+   "airportResources": {
+    "departureGate": "C40",
+    "arrivalTerminal": "3",
+    "arrivalGate": "B9"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "CR9",
+    "actualEquipmentIataCode": "CRJ9"
+   }
+  },
+  {
+   "flightId": 293657094,
+   "carrierFsCode": "DL",
+   "flightNumber": "1814",
+   "departureAirportFsCode": "LAX",
+   "arrivalAirportFsCode": "CVG",
+   "departureDate": {
+    "dateLocal": "2013-04-11T11:58:00.000",
+    "dateUtc": "2013-04-11T18:58:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T19:05:00.000",
+    "dateUtc": "2013-04-11T23:05:00.000Z"
+   },
+   "status": "A",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T11:58:00.000",
+     "dateUtc": "2013-04-11T18:58:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T19:05:00.000",
+     "dateUtc": "2013-04-11T23:05:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T11:58:00.000",
+     "dateUtc": "2013-04-11T18:58:00.000Z"
+    },
+    "actualGateDeparture": {
+     "dateLocal": "2013-04-11T11:58:00.000",
+     "dateUtc": "2013-04-11T18:58:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T12:02:00.000",
+     "dateUtc": "2013-04-11T19:02:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T12:15:00.000",
+     "dateUtc": "2013-04-11T19:15:00.000Z"
+    },
+    "actualRunwayDeparture": {
+     "dateLocal": "2013-04-11T12:15:00.000",
+     "dateUtc": "2013-04-11T19:15:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T19:05:00.000",
+     "dateUtc": "2013-04-11T23:05:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2013-04-11T18:50:00.000",
+     "dateUtc": "2013-04-11T22:50:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T18:47:00.000",
+     "dateUtc": "2013-04-11T22:47:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T18:46:00.000",
+     "dateUtc": "2013-04-11T22:46:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "VA",
+     "flightNumber": "6724",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "CZ",
+     "flightNumber": "1045",
+     "relationship": "L"
+    },
+    {
+     "fsCode": "AS",
+     "flightNumber": "5743",
+     "relationship": "L"
+    }
+   ],
+   "delays": {
+    "departureRunwayDelayMinutes": 13
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 247,
+    "scheduledAirMinutes": 225,
+    "scheduledTaxiOutMinutes": 4,
+    "taxiOutMinutes": 17,
+    "scheduledTaxiInMinutes": 18
+   },
+   "airportResources": {
+    "departureTerminal": "6",
+    "departureGate": "67",
+    "arrivalTerminal": "3",
+    "arrivalGate": "B3"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738",
+    "actualEquipmentIataCode": "B738"
+   }
+  },
+  {
+   "flightId": 293633585,
+   "carrierFsCode": "EV",
+   "flightNumber": "5157",
+   "departureAirportFsCode": "DFW",
+   "arrivalAirportFsCode": "CVG",
+   "departureDate": {
+    "dateLocal": "2013-04-11T12:10:00.000",
+    "dateUtc": "2013-04-11T17:10:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2013-04-11T15:20:00.000",
+    "dateUtc": "2013-04-11T19:20:00.000Z"
+   },
+   "status": "L",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "FY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2013-04-11T12:10:00.000",
+     "dateUtc": "2013-04-11T17:10:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2013-04-11T15:20:00.000",
+     "dateUtc": "2013-04-11T19:20:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2013-04-11T12:10:00.000",
+     "dateUtc": "2013-04-11T17:10:00.000Z"
+    },
+    "actualGateDeparture": {
+     "dateLocal": "2013-04-11T12:08:00.000",
+     "dateUtc": "2013-04-11T17:08:00.000Z"
+    },
+    "flightPlanPlannedDeparture": {
+     "dateLocal": "2013-04-11T12:20:00.000",
+     "dateUtc": "2013-04-11T17:20:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2013-04-11T12:21:00.000",
+     "dateUtc": "2013-04-11T17:21:00.000Z"
+    },
+    "actualRunwayDeparture": {
+     "dateLocal": "2013-04-11T12:20:00.000",
+     "dateUtc": "2013-04-11T17:20:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2013-04-11T15:20:00.000",
+     "dateUtc": "2013-04-11T19:20:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2013-04-11T15:05:00.000",
+     "dateUtc": "2013-04-11T19:05:00.000Z"
+    },
+    "actualGateArrival": {
+     "dateLocal": "2013-04-11T15:04:00.000",
+     "dateUtc": "2013-04-11T19:04:00.000Z"
+    },
+    "flightPlanPlannedArrival": {
+     "dateLocal": "2013-04-11T15:05:00.000",
+     "dateUtc": "2013-04-11T19:05:00.000Z"
+    },
+    "estimatedRunwayArrival": {
+     "dateLocal": "2013-04-11T15:03:00.000",
+     "dateUtc": "2013-04-11T19:03:00.000Z"
+    },
+    "actualRunwayArrival": {
+     "dateLocal": "2013-04-11T15:00:00.000",
+     "dateUtc": "2013-04-11T19:00:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "DL",
+     "flightNumber": "5157",
+     "relationship": "X"
+    },
+    {
+     "fsCode": "AF",
+     "flightNumber": "8867",
+     "relationship": "Z"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 130,
+    "blockMinutes": 116,
+    "scheduledAirMinutes": 105,
+    "airMinutes": 100,
+    "scheduledTaxiOutMinutes": 10,
+    "taxiOutMinutes": 12,
+    "scheduledTaxiInMinutes": 15,
+    "taxiInMinutes": 4
+   },
+   "airportResources": {
+    "departureTerminal": "E",
+    "departureGate": "E13",
+    "arrivalTerminal": "3",
+    "arrivalGate": "B21"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "CR7",
+    "actualEquipmentIataCode": "CRJ7"
+   }
+  }
+ ]
+}
